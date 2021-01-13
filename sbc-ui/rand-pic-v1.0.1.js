@@ -1,0 +1,2 @@
+/** 随机生成图片-v1.0.1 MIT License By 孙柄晨 Released on 2018年8月8日 09:13:29*/
+$(document).ready(function(){var x=0,y=1000;$(".randPic").each(function(){randPic=parseInt(Math.random()*(x-y+1)+y);$(this).attr('src','https://picsum.photos/'+$(this).attr('width')+'/'+$(this).attr('height')+'?image='+randPic)})});

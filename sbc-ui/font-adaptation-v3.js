@@ -1,0 +1,2 @@
+/** JS监听浏览器文字大小 -3.0.1 MIT License By 孙柄晨 Released on 2018年12月13日*/
+let deviceWidth;setHtmlFontSize();if(!window.addEventListener){}else{window.addEventListener('resize',function(){setHtmlFontSize()},false)}function setHtmlFontSize(){if(1200<document.documentElement.clientWidth){deviceWidth=1200}else{deviceWidth=document.documentElement.clientWidth}document.getElementsByTagName('html')[0].style.cssText='font-size:'+deviceWidth/1200+'px !important'}

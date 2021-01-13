@@ -1,0 +1,2 @@
+/** JS监听浏览器文字大小 -v1.0.2 MIT License By 孙柄晨 Released on 2018年8月9日 11:00:08*/
+(function(doc,win){var docEl=doc.documentElement,resizeEvt='orientationchange'in window?'orientationchange':'resize',recalc=function(){var clientWidth=docEl.clientWidth;if(!clientWidth)return;docEl.style.fontSize=20*(clientWidth/1920)+'px'};if(!doc.addEventListener)return;win.addEventListener(resizeEvt,recalc,false);doc.addEventListener('DOMContentLoaded',recalc,false)})(document,window);

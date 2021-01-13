@@ -1,0 +1,10 @@
+@charset "utf-8";
+/** layui默认样式修正- MIT License By 孙柄晨 Released on 2019年1月3日 */
+.layui-container{padding:0;}
+@media screen and (min-width:1200px){.layui-container{width:85%;}}
+.layui-carousel-arrow{width: 54px;height: 54px;margin-top: -27px;line-height: 54px;font-size: 30px;background-color:rgba(0, 0, 0, .25);}
+.layui-carousel-arrow:hover{font-size:32px;background-color:rgba(0, 0, 0, .5);}
+.layui-carousel-ind{position: absolute;top:auto;bottom: 5%;}
+.layui-carousel-ind ul{padding:5px 10px;background-color: rgba(0,0,0,.5);}
+.layui-carousel-ind li{width:24px;height: 8px;margin:0 3px;border-radius:16px;background-color: #fff;}
+.layui-carousel-ind ul li.layui-this{width:40px;background-color:#ea5420;}
